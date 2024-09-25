@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    width:98.9vw;
+    height: 100vh;
+}
+.header-line{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 12vh;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.header-icon{
+    height: 35px;
+    padding-top:30px ;
+    margin-left: 30px;
+}
+.header-menu{
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    padding-top:18px ;
+    margin-left: 10px;
+}
+.crumbl{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Concert One", sans-serif;
+}
+.order-btn{
+    margin-top: 20px;
+}
+.button{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 26px;
+    font-weight: 700;
+    border-radius: 30px;
+    font-family: "Oswald", sans-serif;
+    font-size: 19px;
+}
+.brown{
+    background-color:rgba(100,60,41,255);
+    height: 100vh;
+}
+
+.chris{
+    margin-top: -180px;
+    margin-left: 30px;
+    height: 1050px;
+}
+.right{
+    margin-left: 850px;
+    font-family:"Kanit", sans-serif;
+    color: #fff;
+}
+.served{
+    font-size: 20px;
+    margin-top: -750px;
+    font-weight: 600;
+
+}
+
+.desk-header{
+    font-weight: 700;
+    font-size: 65px;
+
+}
+.desk-info{
+    font-size: 20px;
+    font-weight: 200;
+}
+.desk-learn-left{
+    font-size: 17px;
+    margin-top: 40px;
+}
+.desk-fav-left{
+    font-size: 17px;
+    margin-left: 200px;
+    margin-top: -19px;
+}
+.desk-learn-left :hover{
+    transition-duration: 0.5s;
+    transform: scale(2);
+    border:1px solid black;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.desk-fav-left :hover{
+    color: #fff;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px 40px;
+    transition-duration: 0.5s;
+}
+ 
+.fav-dec{
+    text-decoration: none;
+    color: black;
+}
+.learn-dec{
+    text-decoration: none;
+    color: #fff;
+    margin-top: -50px;
+}
+.star{
+    margin-top: 50px;
+}
